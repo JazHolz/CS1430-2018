@@ -1,0 +1,44 @@
+
+* {padding:0; margin:0;}
+
+html {background: url('http://slice.seriouseats.com/images/2011/09/20110922-pusheen-pizza.gif');}
+
+div {overflow: hidden;}
+
+p { padding: 50px; background-color: purple;}
+
+p.pC { background-color: purple;}
+
+div.space {background-color: purple;}
+
+div.img { background-color: white; float: right;}
+
+body{ width: 800px; background-color: transparent; margin: 0 auto;}
+
+div.pabout { width: 600px; padding: 100px; background-color: purple;}
+
+div.toppings { padding: 28px; width: 745px; font-style: times; background-color: purple;}
+
+div.pizza-size { padding: 30px; width: 500px; font-style: times; background-color: purple; border: 5px soild red;}
+
+div.crust-types { padding: 30px; background-color: purple; width: 180px; float: right;}
+
+div.info { position: right; }
+
+div.fields { padding: 25px; width: 750px; height: 50px; background-color: purple; }
+
+div.contact-con { padding: 20px; width: 200px; height: 39px; background-color: purple; float: left; }
+
+div.buttons-con { padding: 20px; background-color: purple; height: 39px; width: 200px; }
+
+div.txtbx-con { padding: 10px; background-color: purple; float: left; width: 219px;}
+
+div.buttons { padding: 20px; background-color: purple;}
+
+div.txtbx { padding: 20px; background-color: purple;}
+
+ul { list-style-type: none; margin: 5px; padding: 10px; width: 100px; background-color: purple;}
+
+li a { display: inline-block; color: black; padding: 10px 30px; text-decoration: underline;}
+
+li a:hover { background-color: pink; color: purple;}

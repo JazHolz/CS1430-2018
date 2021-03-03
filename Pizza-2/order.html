@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/pizza.css" type="text/css">
+    <title> Jaz Pizzeria
+    </title>
+    </head>
+    <body>
+        <h1> Lets place an Order!
+        </h1>
+  <ul>
+    <li><a href = "index.html">Home</a></li>
+    <li><a href = "contact.html">Contact</a></li>
+    <li><a href = "about.html">About</a></li>
+    <li><a href = "order.html">Order</a></li>
+  </ul>
+  <div class="img">
+    <img
+    src="http://pad3.whstatic.com/images/thumb/7/75/Order-a-Pizza-Over-the-Phone-Step-3-Version-3.jpg/aid172837-v4-728px-Order-a-Pizza-Over-the-Phone-Step-3-Version-3.jpg"
+    style="width: 800px; height: 450px;">
+    <div class="space">
+      <p> </p>
+    </div>
+  </div>
+  <p class="pC">
+    Lets get started making a WONDERFUL pizza! We have five different types of crust and sizes.
+    We have nine different types of toppings, feel free to mix and match as you please.
+    Fill out the following information of where and who to deliver too, any extra notes and hit that submit button!
+  </p>
+<form method ="post" action="http://www.stonecoldprofessor.com/1430/pizza-form/order-process.php">
+  <div class ="crust-types">
+    <select name="crust">
+      <option value="Thick">Thick Crust</option>
+      <option value="Thin">Thin Crust</option>
+      <option value="Fluffy">Fluffy Crust</option>
+      <option value="Stuffed">Stuffed Crust</option>
+      <option value="Pan">Pan Crust</option>
+    </select>
+  </div>
+
+  <div class ="pizza-size">
+    <input type="radio" value="Mini" name="size">Mini Pizza
+    <input type="radio" value="Small" name="size">Small Pizza
+    <input type="radio" value="Medium" name="size">Medium Pizza
+    <input type="radio" value="Large" name="size">Large Pizza
+    <input type="radio" value="Family" name="size">Family Pizza
+  </div>
+
+  <div class ="toppings">
+    <input type="checkbox" value="Spinich" name="toppings[]">Spinich
+    <input type="checkbox" value="Olives" name="toppings[]">Olives
+    <input type="checkbox" value="Sausage" name="toppings[]">Sausage
+    <input type="checkbox" value="Roma Tomatos" name="toppings[]">Roma Tomatos
+    <input type="checkbox" value="Jalapenos" name="toppings[]">Jalapenos
+    <input type="checkbox" value="Green Peppers" name="toppings[]">Green Peppers
+    <input type="checkbox" value="Pineapple" name="toppings[]">Pineapple
+    <input type="checkbox" value="Pepperoni" name="toppings[]">Pepperoni
+    <input type="checkbox" value="Mushrooms" name="toppings[]">Mushrooms
+  </div>
+
+<div class="info">
+  <div class ="fields">
+    <input type="text" placeholder="First Name" name="first">
+    <input type="text" placeholder="Last Name" name="last">
+    <input type="text" placeholder="Street Address 1" name="add1">
+    <input type="text" placeholder="Street Address 2" name="add2">
+    <input type="text" placeholder="City" name="city">
+    <input type="text" placeholder="State" name="state">
+    <input type="text" placeholder="Zip" name="zip">
+    <input type="text" placeholder="Phone (XXX-XXX-XXX)" name="phone">
+    <input type="text" placeholder="Email Address" name="email">
+  </div>
+  <div class ="txtbx">
+    <textarea name="comments" placeholder="Anything else we should know?"></textarea>
+  </div>
+</div>
+
+  <div class ="buttons">
+    <input type="submit" value="Place Your Order">
+    <input type="reset" value="Clear all">
+  </div>
+</form>
+<div class="img">
+  <img src="http://www.newyorkera.com/wp-content/uploads/2016/07/Pizza-Gets-Social-Order-Through-FB-Or-Twitter-1.png"
+  style="width: 800px; height: 500px;">
+</div>
+</body>
+</html>

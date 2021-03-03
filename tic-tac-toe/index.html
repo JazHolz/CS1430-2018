@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Tic Tac Toe </title>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<script src="js/script.js"></script>
+	</head>
+
+<body onload="startGame();">
+
+	<h1 style=" color: white;"> The rule is Simple, one must Win one must Lose.</h1>
+		<h2 style=" color: white;" id="game-label">Let the Game Begin.</h2>
+
+		<div id="row-1" class="row">
+<div onclick="play(this, 1);">&nbsp;</div><div onclick="play(this, 2);">&nbsp;</div><div onclick="play(this, 4);">&nbsp;</div>
+		</div>
+		<div id="row-2" class="row">
+<div onclick="play(this, 8);">&nbsp;</div><div onclick="play(this, 16);">&nbsp;</div><div onclick="play(this, 32);">&nbsp;</div>
+		</div>
+		<div id="row-3" class="row">
+<div onclick="play(this, 64);">&nbsp;</div><div onclick="play(this, 128);">&nbsp;</div><div onclick="play(this, 256);">&nbsp;</div>
+		</div>
+
+	<button onclick="playAgain();">Do you want to Play Again?</button>
+</body>
+</html>

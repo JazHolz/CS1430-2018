@@ -1,0 +1,88 @@
+/* css */
+
+body
+{
+	position: left;
+	width: 1000px;
+	background-color: blue;
+}
+
+div.fhead
+{
+	padding: 5px;
+	height: 150px;
+	overflow: hidden;
+	float: left;
+	font-size: 45px;
+	width: 33%;
+	box-sizing: border-box;
+
+}
+
+div.shead
+{
+	padding: 5px;
+	height: auto;
+	overflow: hidden;
+	font-size: 30px;
+	float: center;
+	width: 200px;
+	box-sizing: border-box;
+}
+
+div.imgfir
+{
+	height: 150px;
+	float: right;
+	position: absolute;
+    right: 580px;
+    top: 3px;
+	width: 200px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+div.bulletpoints
+{
+	font-family: sans-serif;
+	list-style: armenian;
+  background: yellow;
+  padding: 5px;;
+	width: 500px;
+  z-index: 100;
+ 	position: left;
+}
+.bulletpoints li {
+	font-size: 20px;
+	display: block;
+	margin: 50px;
+	color: white;
+}
+
+div.main-video
+{
+	height: 150px;
+	float: right;
+	position: absolute;
+    right: 500px;
+    top: 630px;
+	width: 200px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+div.p
+{
+	padding: 10px;
+	float: right;
+	font-style: italic;
+	font-stretch: extra-expanded;
+	font-size: 30px;
+}
+
+img
+{
+	padding: 15px;
+	position: center;
+  border-radius: 50px;
+}

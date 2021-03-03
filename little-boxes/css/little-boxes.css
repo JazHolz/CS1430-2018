@@ -1,0 +1,85 @@
+/* css */
+
+body
+{
+    background-color: purple;
+    width: 1000px;
+    position: center;
+    padding: 150px;
+}
+img
+{
+  border-style: dashed;
+  padding 50px;
+}
+
+div.box1
+{
+    background-color: rgb(117, 160, 225);
+    color:black;
+    border-style:groove;
+    border-color:blue;
+    float: right;
+    margin:2px;
+    padding:75px;
+    height:150px;
+    width:900px;
+    position: right;
+    top:30px;
+}
+div.containerBox
+{
+    background-color: rgb(225, 0, 122);
+    color:white;
+    border-style:solid;
+    border-color:black;
+    border-width:1px;
+    padding:10px;
+    position: left;
+    top:-7px;
+    left:-7px;
+    height:165;
+    width:455;
+}
+div.shadowBox
+{
+    background-color: rgb(255, 62, 225);
+    position:relative;
+    top:+7px;
+    left:+7px;
+    margin-bottom:5px;
+    margin-right:5px;
+    height:200px;
+    width:490px;
+}
+
+div.floating-box
+{
+  color: blue;
+  font-size: 65px;
+  font-family: trebuchet ms;
+  text-decoration: underline;
+  padding: 25px;
+  display: block;
+  border-right: 5px solid red;
+  width: 850px;
+}
+
+.after-box {
+    float: center;
+    width: 500px;
+    padding: 13px;
+    height: 40px;
+    border: 10px solid pink;
+    background-color: brown;
+    position: static;
+}
+#custom{
+    border:10px solid orange;
+    font-size: 100;
+    border-radius: 550px 30px 550px 30px;
+    width: 1000px;
+    height: 500px;
+    background-color: green;
+    position: relative;
+}

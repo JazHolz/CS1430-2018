@@ -1,0 +1,85 @@
+/* css */
+
+body
+{
+	float:center;
+	width: 1250px;
+	background-color: purple;
+	margin: 0 auto;
+}
+
+div.fhead
+{
+	height: 75px;
+	float: center;
+	font-size: 30px;
+	width: 150px;
+	box-sizing: border-box;
+
+}
+div.shead
+{
+	height: 75px;
+	float: right;
+	width: 850px;
+	font-size: 50px;
+	box-sizing: border-box;
+
+}
+
+div.imgfir
+{
+	float:right;
+	width: 550px;
+  height: auto;
+	padding:15px;
+}
+
+div.bulletpoints {
+	font-family:cursive;
+		list-style: armenian;
+    background: red;
+    padding: 5px;;
+    width: 200px;
+    z-index: 100;
+    position: right;
+  }
+  .bulletpoints li {
+    font-size: 30px;
+    display: block;
+    margin: 10px;
+    color: purple;
+  }
+
+div.main-video
+{
+	padding: 50px;
+	margin: 0 auto;
+	float:left;
+}
+div.p
+{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	font-size: 45px;
+	font-weight: bolder;
+	font-family: cursive;
+	position: left;
+
+}
+div.imgs
+{
+	float: right;
+	list-style-position: outside;
+	display: inline-block;
+	padding: 50px;
+	margin: auto;
+	box-sizing: border-box;
+	resize: both;
+}
+
+div.thumbnail
+{
+	width: auto;
+}

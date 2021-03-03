@@ -1,0 +1,77 @@
+/* css */
+body
+{
+  background-color: #87CEFA;
+  position: right;
+	width: 1400px;
+	margin: 0 auto;
+}
+.p1
+{
+  font-family: monospace;
+  font-size: 30px;
+  font-stretch:ultra-expanded;
+  width: 450px;
+  height: 180px;
+  float: left;
+  padding:51px;
+}
+.p2
+{
+  font-family: monospace;
+  font-size: 30px;
+  font-stretch:ultra-expanded;
+  float: right;
+  padding: 40px;
+  width: 800px;
+}
+h1,h2
+{
+  font-family: monospace;
+  font-size: 30px;
+  font-stretch: expanded;
+  text-align: center;
+}
+img.zazu
+{
+  padding: 5px;
+  position: right;
+  border: 10px solid #FF00FF;
+}
+div.eportfolio
+{
+  float: left;
+  width: 250px;
+  height:250px;
+}
+div.gallery
+{
+  margin: 0;
+  float: left;
+  width: 135px;
+}
+div.gallery:hover
+{
+    border: 10px dotted #FF00FF;
+}
+div.gallery img
+{
+    width: 100%;
+    height: auto;
+}
+div.desc
+{
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+    font-stretch: expanded;
+}
+button
+{
+  width: 60px;
+  height: 60px;
+  color: #0000FF;
+  font-weight: bold;
+}

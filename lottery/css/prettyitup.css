@@ -1,0 +1,33 @@
+/* css */
+body
+{
+  width: 600px;
+  position: right;
+  padding: 15px;
+  background-color: #40CFFF;
+  background-size: 800px;
+  background-origin: border-box;
+}
+div.header
+{
+  position: right;
+  font-size: 20px;
+  font-style: oblique;
+  font-family: cursive;
+  padding: 5px;
+}
+div.img
+{
+  position: right;
+  padding: 10px;
+  background-position: center;
+}
+p
+{
+  position: right;
+  padding: 10px;
+  font-size: 15px;
+  font-style: oblique;
+  font-family: monospace;
+  font-stretch: extra-expanded;
+}

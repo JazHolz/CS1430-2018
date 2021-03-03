@@ -1,0 +1,46 @@
+/* css */
+body
+{
+  background-color: #ff3333;
+}
+img
+{
+  width: 550px;
+  height: 500px;
+  margin-bottom: 20px;
+}
+h1
+{
+  text-align: center;
+  padding: 10px;
+  font-style: oblique;
+  text-decoration-color: #0099ff;
+}
+input, button
+{
+  display: inline-block;
+  padding: 25px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #1a1aff;
+  background-color: #ffff00;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 1 10px #ffff00;
+  font-weight: bold;
+}
+input, button:hover
+{
+  text-align: center;
+  background-color: #ff6600
+}
+input,button:active
+{
+  text-align: center;
+  background-color: #ffff00;
+  box-shadow: 0 5px #ff6600;
+  transform: translateY(4px);
+}

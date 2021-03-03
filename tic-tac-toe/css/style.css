@@ -1,0 +1,76 @@
+/* css file */
+body
+{
+	background-image: url("http://schmoesknow.com/wp-content/uploads/2014/03/saw_v_2_by_hassoomi-d31v9zz.jpg");
+	background-attachment: fixed;
+}
+div.score
+{
+	margin-top: 50px;
+  border: 5px solid white;
+  border-radius: 15px;
+  color: lightgrey;
+  display: inline-block;
+  padding: 10px 40px;
+}
+h1
+{
+	text-align: center;
+	text-decoration-color: white;
+}
+div
+{
+	box-sizing: border-box;
+}
+.row div
+{
+	color: white;
+	width: 155px;
+	height: 150px;
+	border: 3px solid white;
+	display:inline-block;
+	font-family: horror;
+	font-size: 135px;
+	margin-bottom: 0;
+}
+.row
+{
+	text-align: center;
+}
+#row-1 div
+{
+	border-top: none;
+}
+#row-3 div
+{
+	border-bottom: none;
+}
+.row div:first-child
+{
+	border-left: none;
+}
+.row div:last-child
+{
+	border-right: none;
+}
+button
+{
+	text-align: center;
+	display: inline-block;
+	padding: 25px 25px;
+	font-size: 20px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #DC143C;
+	background-color: #8B0000;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 1 10px #DC143C;
+	font-weight: bold;
+}
+button:hover
+{
+  background-color: #A52A2A;
+}

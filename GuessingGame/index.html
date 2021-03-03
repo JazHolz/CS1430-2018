@@ -1,0 +1,15 @@
+<!doctype html>
+<head>
+    <title>The Guessing Game</title>
+    <link rel="stylesheet" href="css/game.css" type="text/css">
+    <script src="js/guess.js"></script>
+</head>
+<body onload="gameStart();">
+    <h1 id="userMessage"></h1>
+    <center>  <img id="gameImage" src= "img/play.png">
+        <form name="guessForm">
+            <input style="width: 320px;" name="userGuess" type="text" placeholder="Guessing is what Tiggers do best!">
+            <input type="button" onclick="compareGuesses();" value ="Hoo-hoo-hoo-hoo!">
+        </form>
+</body>
+</html>
